@@ -29,6 +29,7 @@
 # rm -rf ~/.buildozer && mkdir ~/.buildozer
 
 FROM ubuntu:22.04
+FROM kivy/buildozer:2023.09.10
 
 ENV USER="user"
 ENV HOME_DIR="/home/${USER}"
